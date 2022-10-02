@@ -14,12 +14,12 @@ int b = int.Parse(Console.ReadLine()!);
 Console.WriteLine("Введите третье число:");
 int c = int.Parse(Console.ReadLine()!);
 int max = a;
-if(max<b)
+if (max < b)
 {
     max = b;
 }
-if(max<c)
+if (max < c)
 {
     max = c;
 }
-Console.WriteLine ($"Максимальное число это {max}");
+Console.WriteLine($"Максимальное число это {max}");
