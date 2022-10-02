@@ -6,16 +6,16 @@
 
 Console.Clear();
 Console.WriteLine("Привет!");
-Console.WriteLine("Я могу определить какое из двух чисел больше, а какое меньше.");
+Console.WriteLine("Я могу определить максимальное число из двух введенных чисел.");
 Console.WriteLine("Введите первое число: ");
 int a = int.Parse(Console.ReadLine()!);
 Console.WriteLine("Введите второе число: ");
 int b = int.Parse(Console.ReadLine()!);
 if (a > b)
 {
-    Console.WriteLine($"{a} больше, чем {b}");
+    Console.WriteLine($"Максимальное число, это {a}");
 }
 else
 {
-    Console.WriteLine($"{b} больше, чем {a}");
+    Console.WriteLine($"Максимальное число, это {b}");
 }
