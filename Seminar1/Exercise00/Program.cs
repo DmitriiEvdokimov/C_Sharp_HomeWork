@@ -5,16 +5,17 @@
 //a = -9 b = -3 -> max = -3
 
 Console.Clear();
-Console.WriteLine("Какое число больше, а какое меньше?");
+Console.WriteLine("Привет!");
+Console.WriteLine("Я могу определить какое из двух чисел больше, а какое меньше.");
 Console.WriteLine("Введите первое число: ");
 int a = int.Parse(Console.ReadLine()!);
 Console.WriteLine("Введите второе число: ");
 int b = int.Parse(Console.ReadLine()!);
 if (a>b)
 {
-    Console.WriteLine($"max = {a}");
+    Console.WriteLine($"{a} больше, чем {b}");
 }
 else
 {
-    Console.WriteLine($"max = {b}");
+    Console.WriteLine($"{b} больше, чем {a}");
 }

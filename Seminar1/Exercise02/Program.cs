@@ -5,7 +5,8 @@
 //7 -> нет
 
 Console.Clear();
-Console.WriteLine("Четное или нечетное число?");
+Console.WriteLine("Привет!");
+Console.WriteLine("Я могу определить, четным или нечетным является введенное число.");
 Console.WriteLine("Введите число:");
 int x = int.Parse(Console.ReadLine()!);
 if (x % 2 == 0)

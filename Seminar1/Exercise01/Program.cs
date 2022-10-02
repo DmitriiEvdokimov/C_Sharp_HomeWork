@@ -5,7 +5,8 @@
 //22, 3, 9 -> 22
 
 Console.Clear();
-Console.WriteLine("Какое из трех числел максимальное?");
+Console.WriteLine("Привет!");
+Console.WriteLine("Я могу определить, какое из трех введенных числел - максимальное.");
 Console.WriteLine("Введите первое число:");
 int a = int.Parse(Console.ReadLine()!);
 Console.WriteLine("Введите второе число:");
@@ -21,4 +22,4 @@ if(max<c)
 {
     max = c;
 }
-Console.WriteLine ($"Max = {max}");
+Console.WriteLine ($"Максимальное число это {max}");
