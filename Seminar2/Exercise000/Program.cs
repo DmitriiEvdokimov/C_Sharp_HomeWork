@@ -13,7 +13,7 @@ int result = 0;
 int x1 = x / 10;
 if (x1 >= 10 && x1 < 100)
 {
-    result = (x%100)/10;
+    result = (x % 100) / 10;
     Console.WriteLine($"Вторая цыфра числа {x} -> {result} ");
 }
 else
