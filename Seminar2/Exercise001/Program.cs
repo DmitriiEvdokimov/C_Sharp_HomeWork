@@ -8,7 +8,6 @@ Console.Clear();
 Console.WriteLine("Показать третью цыфру  числа.");
 Console.WriteLine("Введите  число:");
 int x = int.Parse(Console.ReadLine()!);
-int result = 0;
 int x1 = x / 10;
 int num = x;
 if (x1 >= 10 || x1 <= -10)
