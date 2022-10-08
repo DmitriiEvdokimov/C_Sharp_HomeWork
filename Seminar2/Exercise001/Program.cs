@@ -5,7 +5,7 @@
 //32679 -> 6
 
 Console.Clear();
-Console.WriteLine("Показать третью цыфру  числа.");
+Console.WriteLine("Показать третью цифру числа.");
 Console.WriteLine("Введите  число:");
 int x = int.Parse(Console.ReadLine()!);
 int x1 = x / 10;
@@ -19,11 +19,11 @@ if (x1 >= 10 || x1 <= -10)
     if (x < 0)
     {
         x = -x;
-        Console.WriteLine($"Третья цыфра числа {num} -> {(x % 10)} ");
+        Console.WriteLine($"Третья цифра числа {num} -> {(x % 10)} ");
     }
     else
     {
-        Console.WriteLine($"Третья цыфра числа {num} -> {(x % 10)} ");
+        Console.WriteLine($"Третья цифра числа {num} -> {(x % 10)} ");
     }
 }
 else

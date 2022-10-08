@@ -15,11 +15,11 @@ Console.WriteLine("СБ->6");
 Console.WriteLine("ВС->7");
 Console.WriteLine("Введите цифру обозначающую день недели:");
 int x = int.Parse(Console.ReadLine()!);
-if (x > 0 & x < 6)
+if (x > 0 && x < 6)
 {
     Console.WriteLine("Нет, это будний день.");
 }
-else if (x > 5 & x < 8)
+else if (x > 5 && x < 8)
 {
     Console.WriteLine("Да, это выходной день.");
 }
