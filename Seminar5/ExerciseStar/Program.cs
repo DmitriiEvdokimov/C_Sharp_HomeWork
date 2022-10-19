@@ -17,8 +17,8 @@ void PrintArray(int[] col)
 }
 int[] BubbleSort(int[] collection)
 {
-    
-    for (int n = 0; n < collection.Length-1; n++)
+
+    for (int n = 0; n < collection.Length - 1; n++)
     {
         int j = 1;
         int temp = 0;

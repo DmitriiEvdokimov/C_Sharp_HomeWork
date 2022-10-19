@@ -15,10 +15,6 @@ double[] GetArrayFromString(string stringArray)
     }
     return res;
 }
-void PrintArray(double[] col)
-{
-    Console.WriteLine(String.Join(" ,", col));
-}
 double RangeMinMax(double[] collection)
 {
     double result = 0;
@@ -47,5 +43,5 @@ Console.WriteLine("Найдём разницу между максимальны
 Console.WriteLine("Введите числа массива через пробел:");
 string text = Console.ReadLine();
 double[] numbers = GetArrayFromString(text);
-//PrintArray(numbers);
+
 Console.WriteLine($"Разница между максимальным и минимальным элементом массива:{RangeMinMax(numbers)}");
