@@ -32,6 +32,6 @@ int FindEvenNums(int[] numbers)
 
 Console.Clear();
 int[] nums = fillArray(10, 100, 999);
-Console.WriteLine($"Массив заполненный случайными четными числами:");
+Console.WriteLine($"Массив заполненный случайными трехзначными числами:");
 PrintArray(nums);
 Console.WriteLine($"Количество четных элементов в массиве равно {FindEvenNums(nums)}");
