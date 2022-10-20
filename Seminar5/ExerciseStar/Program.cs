@@ -18,21 +18,20 @@ void PrintArray(int[] col)
 int[] BubbleSort(int[] collection)
 {
 
-    for (int n = 0; n < collection.Length - 1; n++)
+    for (int i = 0; i < collection.Length; i++)
     {
-        int j = 1;
-        int temp = 0;
-        for (int i = 0; i < collection.Length - 1; i++)
+        bool flag = true;
+        for (int j = 0; j < collection.Length - (i+1); j++)
         {
-            if (collection[i] < collection[j])
+            if (collection[j] < collection[j+1])
             {
-                temp = collection[i];
-                collection[i] = collection[j];
-                collection[j] = temp;
+                flag = false;
+                int temp = collection[j];
+                collection[j] = collection[j+1];
+                collection[j+1] = temp;
             }
-
-            j++;
         }
+        if (flag) break;
     }
     return collection;
 }
