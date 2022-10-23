@@ -77,6 +77,7 @@ int[] CounterClockArray(int[,] matrix)
 
 
 Console.Clear();
+Console.Write("Обход введенного двумерного массива, начиная с крайнего нижнего левого элемента против часовой стрелки.");
 Console.Write("Введите количество строк в массиве:");
 int row = int.Parse(Console.ReadLine()!);
 Console.Write("Введите количество столбцов в массиве:");
