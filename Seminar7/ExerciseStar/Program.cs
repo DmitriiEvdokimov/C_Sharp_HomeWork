@@ -33,7 +33,7 @@ int RomeDigits(string romeNumber)
         {
             if (convert[i] < convert[i + 2])
             {
-                Console.WriteLine("Если меньшая цифра стоит перед большей,в этом случае она не может повторяться");
+                Console.WriteLine("Двойное вычитание недопустимо");
                 return result;
             }
         }
