@@ -5,7 +5,7 @@
 // 1 -3,3 8 -9,9
 // 8 7,8 -7,1 9
 
-double[,] fillArray(int rows, int columns)
+double[,] FillArray(int rows, int columns)
 {
     double[,] array = new double[rows, columns];
 
@@ -46,5 +46,5 @@ int row = int.Parse(Console.ReadLine()!);
 Console.Write("Введите количество столбцов в массиве:");
 int col = int.Parse(Console.ReadLine()!);
 
-double[,] userArray = fillArray(row, col);
+double[,] userArray = FillArray(row, col);
 PrintBinaryDoubleArray(userArray);
